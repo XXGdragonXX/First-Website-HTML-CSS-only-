@@ -1,0 +1,57 @@
+body{
+    
+    background: linear-gradient(130deg, black, purple, hotpink, black);
+  
+  
+    
+}
+
+#third{
+    text-align: center;
+    color: rgb(238, 236, 240);
+   
+}
+
+#fourth{
+    text-align: center;
+    font-size: large;
+    color: rgb(245, 128, 153);
+    font-style: italic;
+}
+
+#first{
+    text-align: center;
+    font-style: oblique;
+    color: purple;
+}
+
+#eight{
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+#second{
+    text-align: center;
+    word-spacing: 200px;
+    background-color: hotpink;
+    
+}
+#sixone{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: left
+    
+    color: black, pink;
+}
+#seventh{
+    text-align: center;
+}
+#sixth{
+    text-align: center;
+}
+
+#fifth{
+    text-align: center;
+}
+#nine{
+    word-spacing: 5cm;
+}
