@@ -49,9 +49,9 @@ body{
 }
 #second{
     text-align: center;
-    font-size:medium;
+    
     word-spacing: 200px;
-    background: linear-gradient(120deg,black,pink,white);
+    background: linear-gradient(130deg,black,pink,white,pink);
     
 }
 #sixone{
@@ -91,9 +91,103 @@ body{
 }
 #members{
     text-align: center;
-    color: pink;
+    color: black;
     font-weight: bold;
     font-family: cursive;
 }
+.alpha:hover{
+    background: linear-gradient(130deg,white,hotpink);
+    color:hotpink;
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: solid;
+    
+}
 
+.beta:link,.beta:hover{
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    
+}
+.omega:hover{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 17px;
+    background-color: black;
+}
+
+.container{
+    background-color: black;
+    text-align: center;
+    color: hotpink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.dropbtn {
+    background-color:transparent;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(130deg,black,pink,white);
+    min-width: 160px;
+    
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: block;
+    font-family: cursive;
+}
+.dropdown-content a:hover {
+    background: linear-gradient(130deg,black,pink,white);
+    font-family: cursive;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent
+}
+
+.alpha1:link{
+    background:transparent;
+    color:black;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.alpha1:hover{
+
+    background:linear-gradient(130deg,black,pink,white);
+
+}
+
+
+  
 
